@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace Assignment
 {
-    class Program
+    class Program1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             var t1 = Task.Factory.StartNew(() => PrintOddNumbers());
             var t2 = Task.Factory.StartNew(() => PrintEvenNumbers());
