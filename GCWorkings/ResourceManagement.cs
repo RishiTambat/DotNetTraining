@@ -63,12 +63,29 @@ namespace GCWorkings.ResourceManagement
         }
         static void Client()
         {
-            A obj = null;
-            obj = new A();
-            obj.UseResource();
-            obj.Dispose();
-            obj = null;
-            GC.Collect();
+            //A obj = null;
+            //try
+            //{
+            //    obj = new A();
+            //    obj.UseResource();
+            //    obj.Dispose();
+
+            //}
+            //catch(Exception ex)
+            //{
+            //    obj.Dispose();
+            //}
+            //finally
+            //{
+            //    obj.Dispose();
+            //}
+            //obj = null;
+            //GC.Collect();
+
+            using(A obj = new A())
+            {
+                obj.UseResource();
+            }
         }
     }
 }
