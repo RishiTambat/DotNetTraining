@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCWorkings", "GCWorkings\GC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment", "Assignment\Assignment.csproj", "{9244DC59-342C-496E-866B-5B2B33A97BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvProvider", "CsvProvider\CsvProvider.csproj", "{753B91C0-1D98-4AD2-BAB2-1C56F450ACD9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -59,10 +57,6 @@ Global
 		{9244DC59-342C-496E-866B-5B2B33A97BD2}.Debug|anycpu.Build.0 = Debug|anycpu
 		{9244DC59-342C-496E-866B-5B2B33A97BD2}.Release|anycpu.ActiveCfg = Release|anycpu
 		{9244DC59-342C-496E-866B-5B2B33A97BD2}.Release|anycpu.Build.0 = Release|anycpu
-		{753B91C0-1D98-4AD2-BAB2-1C56F450ACD9}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{753B91C0-1D98-4AD2-BAB2-1C56F450ACD9}.Debug|anycpu.Build.0 = Debug|anycpu
-		{753B91C0-1D98-4AD2-BAB2-1C56F450ACD9}.Release|anycpu.ActiveCfg = Release|anycpu
-		{753B91C0-1D98-4AD2-BAB2-1C56F450ACD9}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
